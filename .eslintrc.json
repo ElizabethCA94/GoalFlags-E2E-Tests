@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "cypress/globals": true
+    },
+    "extends": [
+        "plugin:cypress/recommended",
+        "plugin:chai-friendly/recommended"
+    ],
+    "plugins": [
+        "cypress"
+    ],
+    "rules": {
+        "indent": ["error", 2],
+        "max-len": [
+            "error", {
+                "code": 100
+            }
+        ]
+    }
+}
